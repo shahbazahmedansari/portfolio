@@ -1,8 +1,8 @@
 import Link from "next/link";
 import React from "react";
 import { Button } from "./ui/button";
-import { ArrowDownToLine } from "lucide-react";
 import { ThemeToggle } from "./ThemeToggle";
+import { ResumeButton } from "./ResumeButton";
 
 const Navbar = () => {
   return (
@@ -24,8 +24,7 @@ const Navbar = () => {
           Contact
         </Link>
         <div className="flex items-center px-5">
-          <ArrowDownToLine />
-          <Link href={"/"}>Resume</Link>
+          <ResumeButton />
         </div>
         <div className="dark:text-white">|</div>
         <div className="px-5">

@@ -40,19 +40,19 @@ const MobileNav = () => {
               <SheetDescription className="flex flex-col items-center justify-center gap-8">
                 <Button
                   asChild
-                  className="rounded-full px-16 bg-slate-200 dark:bg-blue-700 text-white"
+                  className="rounded-full px-16 bg-slate-200 dark:bg-blue-700 text-black dark:text-white"
                 >
                   <Link href="/">Home</Link>
                 </Button>
                 <Button
                   asChild
-                  className="rounded-full px-16 bg-slate-200 dark:bg-slate-950 text-white"
+                  className="rounded-full px-16 bg-slate-200 dark:bg-slate-950 text-black dark:text-white"
                 >
                   <Link href="/">Projects</Link>
                 </Button>
                 <Button
                   asChild
-                  className="rounded-full px-16 bg-slate-200 dark:bg-slate-950 text-white"
+                  className="rounded-full px-16 bg-slate-200 dark:bg-slate-950 text-black dark:text-white"
                 >
                   <Link href="/">Contact</Link>
                 </Button>
