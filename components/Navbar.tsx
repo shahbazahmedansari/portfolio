@@ -6,7 +6,7 @@ import { ResumeButton } from "./ResumeButton";
 
 const Navbar = () => {
   return (
-    <nav className="hidden items-center justify-between px-8 py-5 sm:flex">
+    <nav className="hidden items-center justify-between px-8 py-5 sm:flex bg-slate-100 dark:bg-slate-900">
       <Button
         asChild
         className="rounded-full size-10 bg-blue-700 hover:bg-blue-700"
