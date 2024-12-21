@@ -12,7 +12,7 @@ export function ResumeButton() {
         className="bg-white dark:bg-slate-800 text-black dark:text-white border-neutral-200 dark:border-slate-800"
       >
         <ArrowDownToLine />
-        <Link href="/">Resume</Link>
+        <Link href="/" className="font-semibold text-gray-600 dark:text-white">Resume</Link>
       </Button>
     </div>
   );
