@@ -1,6 +1,7 @@
-import HeroSection from "@/components/HeroSection";
-import MobileNav from "@/components/MobileNav";
-import Navbar from "@/components/Navbar";
+import HeroSection from "@/components/sections/HeroSection";
+import MobileNav from "@/components/sections/MobileNav";
+import Navbar from "@/components/sections/Navbar";
+import SkillSection from "@/components/sections/SkillSection";
 
 export default function Home() {
   return (
@@ -8,6 +9,7 @@ export default function Home() {
       <Navbar />
       <MobileNav />
       <HeroSection />
+      <SkillSection />
     </>
   );
 }

@@ -1,8 +1,8 @@
 import Link from "next/link";
 import React from "react";
-import { Button } from "./ui/button";
-import { ThemeToggle } from "./ThemeToggle";
-import { ResumeButton } from "./ResumeButton";
+import { Button } from "../ui/button";
+import { ThemeToggle } from "../ThemeToggle";
+import { ResumeButton } from "../ResumeButton";
 
 const Navbar = () => {
   const links = [
@@ -32,7 +32,11 @@ const Navbar = () => {
       </Button>
       <div className="flex items-center justify-center">
         {links.map((link) => (
-          <Link href={link.href} key={link.id} className="px-5 ">
+          <Link
+            href={link.href}
+            key={link.id}
+            className="px-5 hover:cursor-pointer"
+          >
             <h3 className="font-semibold text-gray-600 dark:text-white">
               {link.title}
             </h3>
