@@ -10,7 +10,7 @@ const HeroSection = () => {
         <h3 className="uppercase text-blue-700 dark:text-blue-600 tracking-widest text-2xl">
           Hi, I am Shahbaz Ansari
         </h3>
-        <h1 className="mt-10 dark:text-white text-black font-extrabold text-7xl">
+        <h1 className="mt-10 dark:text-white text-black font-extrabold sm:text-7xl text-5xl">
           Professional Web Developer based in India
         </h1>
         <p className="mt-2 text-xl text-gray-500 tracking-widest dark:text-white">
@@ -18,11 +18,11 @@ const HeroSection = () => {
           <br /> Crafting cutting-edge digital experiences with precsion,
           passion and a profound commitment to excellence.
         </p>
-        <div className="flex items-center justify-center">
+        <div className="flex items-center justify-center max-sm:flex-col mx-10">
           <HeroButton className="bg-blue-700 dark:bg-blue-600 text-white px-10 py-4">
             Projects
           </HeroButton>
-          <HeroButton className="ml-8 dark:bg-slate-950 bg-white text-gray-500 dark:text-white px-12 py-5">
+          <HeroButton className="sm:ml-8 dark:bg-slate-950 bg-white text-gray-500 dark:text-white px-10 py-5">
             Contact
           </HeroButton>
 
@@ -35,7 +35,7 @@ const HeroSection = () => {
           alt="hero-section"
           width={500}
           height={500}
-          className="rounded-md"
+          className="rounded-xl"
         />
       </div>
     </section>
