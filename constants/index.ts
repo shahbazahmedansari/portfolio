@@ -85,3 +85,34 @@ export const skillLists = [
     icon: "../icons/icons8-prisma-orm.svg",
   },
 ];
+
+export const serviceCardDetails = [
+  {
+    id: 1,
+    title: "Analytics & SEO",
+    content:
+      "Implement tracking & analysis tools to monitor website performance & improve SEO.",
+    imgUrl: "../icons/pencil-ruler.svg",
+  },
+  {
+    id: 2,
+    title: "Front-End Dev",
+    content:
+      "Front-end includes creating the user interface and interactive elements of websites and apps.",
+    imgUrl: "../icons/laptop-minimal.svg",
+  },
+  {
+    id: 3,
+    title: "Back-End Dev",
+    content:
+      "Back-end includes building the server-side functionality that powers websites & applications.",
+    imgUrl: "../icons/code-xml.svg",
+  },
+  {
+    id: 4,
+    title: "Web Optimization",
+    content:
+      "Web optimization focuses on improving website performance for a smoother user experience.",
+    imgUrl: "../icons/circle-gauge.svg",
+  },
+];

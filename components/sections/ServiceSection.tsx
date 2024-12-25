@@ -1,5 +1,6 @@
 import React from "react";
 import ServiceCard from "../ServiceCard";
+import { serviceCardDetails } from "@/constants";
 
 const ServiceSection = () => {
   return (
@@ -8,10 +9,16 @@ const ServiceSection = () => {
         What service do I provide
       </h1>
       <div className="my-10 grid lg:grid-cols-4 md:grid-cols-2 gap-5">
-        <ServiceCard />
-        <ServiceCard />
-        <ServiceCard />
-        <ServiceCard />
+        {serviceCardDetails &&
+          serviceCardDetails.map((service) => (
+            <div key={service.id}>
+              <ServiceCard
+                title={service.title}
+                content={service.content}
+                imgUrl={service.imgUrl}
+              />
+            </div>
+          ))}
       </div>
     </section>
   );
