@@ -18,11 +18,11 @@ const HeroSection = () => {
                     <br /> Crafting cutting-edge digital experiences with
                     precsion, passion and a profound commitment to excellence.
                 </p>
-                <div className="flex items-center justify-center max-sm:flex-col mx-10">
+                <div className="flex items-center justify-center max-sm:flex-col md:mx-10 sm:mx-40 sm:w-full">
                     <HeroButton className="bg-blue-700 dark:bg-blue-600 text-white px-10 py-4">
                         Projects
                     </HeroButton>
-                    <HeroButton className="sm:ml-8 dark:bg-slate-950 bg-white text-gray-500 dark:text-white px-10 py-5">
+                    <HeroButton className="sm:ml-4 md:ml-8 dark:bg-slate-950 bg-white text-gray-500 dark:text-white px-10 py-5">
                         Contact
                     </HeroButton>
 
